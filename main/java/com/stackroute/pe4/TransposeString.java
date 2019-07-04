@@ -1,5 +1,7 @@
 package com.stackroute.pe4;
 
+//program to reverse the string word by word
+
 import java.lang.String;
 
 
@@ -9,10 +11,13 @@ public class TransposeString {
 
         String[] words = str.split(" ");
         String reverseString = "", result ="";
+
+        // checking for empty string
         if (str == " ")
         {
             result = "Empty string not accepted";
         }
+        
         else
             {
             for (int i = 0; i < words.length; i++) {
